@@ -1,5 +1,8 @@
 {
-  "itemGroup.fracture": "Example Mod Tab",
-  "block.fracture.example_block": "Example Block",
-  "item.fracture.example_item": "Example Item"
+  "itemGroup.fracture": "Fracture",
+
+  "item.fracture.test_item": "Test Item",
+  "item.fracture.void_crystal": "Void Crystal",
+
+  "block.fracture.nihil_portal": "Nihil Portal"
 }

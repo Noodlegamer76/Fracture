@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fracture:block/sideways_vertical_wires",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "fracture:block/sideways_vertical_wires",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fracture:block/sideways_vertical_wires"
+    },
+    "facing=south": {
+      "model": "fracture:block/sideways_vertical_wires",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fracture:block/sideways_vertical_wires",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "fracture:block/sideways_vertical_wires",
+      "y": 270
+    }
+  }
+}

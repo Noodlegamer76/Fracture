@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:noise",
+    "noise": "fracture:void_city_room_height",
+    "xz_scale": 0.5,
+    "y_scale": 3
+  },
+  "argument2": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -64,
+    "to_y": 320,
+    "from_value": 2,
+    "to_value": -1
+  }
+}

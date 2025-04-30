@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fracture:block/support_beam",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "fracture:block/support_beam",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fracture:block/support_beam"
+    },
+    "facing=south": {
+      "model": "fracture:block/support_beam",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fracture:block/support_beam",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "fracture:block/support_beam",
+      "y": 270
+    }
+  }
+}

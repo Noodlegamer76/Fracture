@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fracture:block/wires",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "fracture:block/wires",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fracture:block/wires"
+    },
+    "facing=south": {
+      "model": "fracture:block/wires",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fracture:block/wires",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "fracture:block/wires",
+      "y": 270
+    }
+  }
+}

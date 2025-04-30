@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fracture:block/wire_panel_hazard",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "fracture:block/wire_panel_hazard",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fracture:block/wire_panel_hazard"
+    },
+    "facing=south": {
+      "model": "fracture:block/wire_panel_hazard",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fracture:block/wire_panel_hazard",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "fracture:block/wire_panel_hazard",
+      "y": 270
+    }
+  }
+}

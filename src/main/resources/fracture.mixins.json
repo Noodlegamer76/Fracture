@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.noodlegamer76.fracture.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fracture.refmap.json",
+  "mixins": [
+    "StructureTemplateMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
