@@ -1,0 +1,32 @@
+{
+  "carvers": {},
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 16384,
+    "sky_color": 16384,
+    "water_color": 16384,
+    "water_fog_color": 11520,
+    "grass_color": 5376,
+    "foliage_color": 5376,
+    "particle": {
+      "options": {
+        "type": "fracture:tainted_spores"
+      },
+      "probability": 0.0
+    }
+  },
+  "features": [
+    [
+      "fracture:echo/chemical_swamp/giant_tainted_tendril",
+      "fracture:echo/chemical_swamp/tainted_tendril"
+    ],
+    [
+      "fracture:echo/chemical_swamp/tainted_mushroom_patch",
+      "fracture:echo/chemical_swamp/chemshroom_patch"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 0.5
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    "fracture:wires",
+    "fracture:vertical_wires",
+    "fracture:wire_panel",
+    "fracture:wire_panel_hazard",
+    "fracture:sideways_vertical_wires",
+    "fracture:support_beam",
+    "fracture:vertical_support_beam",
+    "fracture:crumbling_reality",
+    "fracture:scrap",
+    "fracture:rusted_metal",
+    "fracture:rusted_barrel",
+    "fracture:safety_diamond"
+  ]
+}

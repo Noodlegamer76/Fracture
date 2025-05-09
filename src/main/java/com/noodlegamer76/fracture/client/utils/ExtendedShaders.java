@@ -17,7 +17,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExtendedShaders {
+public class
+
+ExtendedShaders {
     public static final int BRANCHING_TEXTURE = ExtendedShaders.getIdFromTexture(ResourceLocation.fromNamespaceAndPath(FractureMod.MODID, "textures/noise/branching.png"));
     private static final List<ExtendedShaderInstance> shaders = new ArrayList<>();
 

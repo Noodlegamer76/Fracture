@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "fracture:echo/scrapyard/junkyard_1",
+        "processors": [],
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

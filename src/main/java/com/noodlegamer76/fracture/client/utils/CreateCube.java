@@ -11,9 +11,11 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
 import org.joml.Matrix4f;
 
+import java.awt.*;
+
 public class CreateCube {
 
-    public static void createTexturedCubeAroundPlayer(PoseStack poseStack, ResourceLocation texture) {
+    public static void createTexturedCubeAroundPlayer(PoseStack poseStack, ResourceLocation texture, Color color) {
 
         poseStack.pushPose();
 
@@ -23,7 +25,7 @@ public class CreateCube {
         float far = Minecraft.getInstance().gameRenderer.getRenderDistance();
 
         for(int i = 0; i < 6; ++i) {
-            BufferBuilder vertexConsumer = Tesselator.getInstance().begin(VertexFormat.Mode.QUADS, DefaultVertexFormat.POSITION_TEX);
+            BufferBuilder vertexConsumer = Tesselator.getInstance().begin(VertexFormat.Mode.QUADS, DefaultVertexFormat.POSITION_TEX_COLOR);
 
             poseStack.pushPose();
             if (i == 0) {
@@ -67,10 +69,10 @@ public class CreateCube {
                 poseStack.mulPose(Axis.YN.rotationDegrees(180));
             }
             Matrix4f matrix4f = poseStack.last().pose();
-            vertexConsumer.addVertex(matrix4f, -far, -far, -far).setUv(0.0F, 0.0F);
-            vertexConsumer.addVertex(matrix4f, -far, -far, far).setUv(0.0F, 1.0F);
-            vertexConsumer.addVertex(matrix4f, far, -far, far).setUv(1.0F, 1.0F);
-            vertexConsumer.addVertex(matrix4f, far, -far, -far).setUv(1.0F, 0.0F);
+            vertexConsumer.addVertex(matrix4f, -far, -far, -far).setUv(0.0F, 0.0F).setColor(color.getRGB());
+            vertexConsumer.addVertex(matrix4f, -far, -far, far).setUv(0.0F, 1.0F).setColor(color.getRGB());
+            vertexConsumer.addVertex(matrix4f, far, -far, far).setUv(1.0F, 1.0F).setColor(color.getRGB());
+            vertexConsumer.addVertex(matrix4f, far, -far, -far).setUv(1.0F, 0.0F).setColor(color.getRGB());
             poseStack.popPose();
 
             MeshData meshData = vertexConsumer.build();

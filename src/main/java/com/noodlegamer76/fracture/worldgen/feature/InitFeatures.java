@@ -13,4 +13,13 @@ public class InitFeatures {
 
     public static final DeferredHolder<Feature<?>, VoidCityRoomPlacementFeature> VOID_CITY_ROOM_PLACEMENT =
             FEATURES.register("void_city_room", () -> new VoidCityRoomPlacementFeature(NoneFeatureConfiguration.CODEC));
+
+    public static final DeferredHolder<Feature<?>, RandomScrapFeature> RANDOM_SCRAP =
+            FEATURES.register("random_scrap", () -> new RandomScrapFeature(NoneFeatureConfiguration.CODEC));
+
+    public static final DeferredHolder<Feature<?>, TaintedTendril> TAINTED_TENDRIL =
+            FEATURES.register("tainted_tendril", () -> new TaintedTendril(NoneFeatureConfiguration.CODEC));
+
+    public static final DeferredHolder<Feature<?>, GiantTaintedTendril> GIANT_TAINTED_TENDRIL =
+            FEATURES.register("giant_tainted_tendril", () -> new GiantTaintedTendril(NoneFeatureConfiguration.CODEC));
 }

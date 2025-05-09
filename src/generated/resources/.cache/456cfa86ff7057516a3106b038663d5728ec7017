@@ -1,0 +1,4 @@
+// 1.21.1	2025-05-03T21:14:56.6921028	Tags for minecraft:block mod id fracture
+d7f0f3534eb1ec33886dbeb0ee51da7d3944f087 data/minecraft/tags/block/mineable/hoe.json
+93a00edb028b37327094488be224c1bf960a2869 data/minecraft/tags/block/mineable/pickaxe.json
+427a340eebd153578c2802699805dac2cdcf9be9 data/minecraft/tags/block/mineable/shovel.json

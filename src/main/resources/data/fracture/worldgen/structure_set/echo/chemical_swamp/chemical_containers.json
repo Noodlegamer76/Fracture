@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "fracture:echo/chemical_swamp/chemical_containers",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 1,
+    "salt": 7346329,
+    "frequency_reduction_method": "default",
+    "frequency": 1
+  }
+}

@@ -5,6 +5,7 @@ import com.noodlegamer76.fracture.network.payloads.nihilportalstate.NihilPortalS
 import com.noodlegamer76.fracture.tile.InitBlockEntities;
 import com.noodlegamer76.fracture.tile.NihilPortalTile;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;

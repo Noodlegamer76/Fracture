@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fracture:block/strange_stem",
+      "x": 0
+    },
+    "facing=east": {
+      "model": "fracture:block/strange_stem",
+      "x": 90,
+      "y": -90
+    },
+    "facing=north": {
+      "model": "fracture:block/strange_stem",
+      "x": -90
+    },
+    "facing=south": {
+      "model": "fracture:block/strange_stem",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "fracture:block/strange_stem",
+      "x": 180
+    },
+    "facing=west": {
+      "model": "fracture:block/strange_stem",
+      "x": -90,
+      "y": -90
+    }
+  }
+}

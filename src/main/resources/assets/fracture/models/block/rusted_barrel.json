@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fracture:block/rusted_barrel_top",
+    "side": "fracture:block/rusted_barrel_side"
+  }
+}

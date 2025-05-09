@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fracture:block/rusted_barrel_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fracture:block/rusted_barrel"
+    },
+    "axis=z": {
+      "model": "fracture:block/rusted_barrel_horizontal",
+      "x": 90
+    }
+  }
+}

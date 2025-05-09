@@ -3,6 +3,26 @@
 
   "item.fracture.test_item": "Test Item",
   "item.fracture.void_crystal": "Void Crystal",
+  "item.fracture.toxic_chemical_bucket": "Toxic Chemical Bucket",
 
-  "block.fracture.nihil_portal": "Nihil Portal"
+  "block.fracture.nihil_portal": "Nihil Portal",
+  "block.fracture.wires": "Wires",
+  "block.fracture.vertical_wires": "Vertical Wires",
+  "block.fracture.wire_panel_hazard": "Wire Panel (Hazard)",
+  "block.fracture.wire_panel": "Wire Panel",
+  "block.fracture.sideways_vertical_wires": "Sideways Vertical Wires",
+  "block.fracture.vertical_support_beam": "Vertical Support Beam",
+  "block.fracture.support_beam": "Support Beam",
+  "block.fracture.crumbling_reality": "Crumbling Reality",
+  "block.fracture.corroded_dust": "Corroded Dust",
+  "block.fracture.scrap": "Scrap",
+  "block.fracture.rusted_metal": "Rusted Metal",
+  "block.fracture.tainted_fungus": "Tainted Fungus",
+  "block.fracture.tainted_fungus_stem": "Tainted Fungus Stem",
+  "block.fracture.tainted_mushroom": "Tainted Mushroom",
+  "block.fracture.chemshroom": "Chemshroom",
+  "block.fracture.toxic_dirt": "Toxic Dirt",
+  "block.fracture.rusted_barrel": "Rusted Barrel",
+  "block.fracture.safety_diamond": "Hazard Diamond",
+  "block.fracture.strange_stem": "Strange Stem"
 }
